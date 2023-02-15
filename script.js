@@ -19,4 +19,12 @@ const multiply = function(x,y) {
 
 const divide = function(x,y) {
     return x / y;
-}
+};
+
+function opr(val){
+    document.getElementById("result").value += val
+};
+
+function clr(){
+    document.getElementById("result").value = ""
+};
