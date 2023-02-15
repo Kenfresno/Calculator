@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="flex-container">
-            <div class="content"></div>
+            <div class="content">
                 <table id="calculator">
                     <tr>
                         <td colspan="3"><input type="text" id="result"></td>
@@ -18,27 +18,28 @@
                         <td><button value="1" onclick="opr('1')">1</button></td>
                         <td><button value="2" onclick="opr('2')">2</button></td>
                         <td><button value="3" onclick="opr('3')">3</button></td>
-                        <td><button value="/" onclick="opr('/')">/</button></td>
+                        <td><button value="/" onclick="opr('/')" id="Operator">/</button></td>
                     </tr>
                     <tr>
                         <td><button value="4" onclick="opr('4')">4</button></td>
                         <td><button value="5" onclick="opr('5')">5</button></td>
                         <td><button value="6" onclick="opr('6')">6</button></td>
-                        <td><button value="*" onclick="opr('*')">*</button></td>
+                        <td><button value="*" onclick="opr('*')" id="Operator">*</button></td>
                     </tr>
                     <tr>
                         <td><button value="7" onclick="opr('7')">7</button></td>
                         <td><button value="8" onclick="opr('8')">8</button></td>
                         <td><button value="9" onclick="opr('9')">9</button></td>
-                        <td><button value="-" onclick="opr('-')">-</button></td>
+                        <td><button value="-" onclick="opr('-')" id="Operator">-</button></td>
                     </tr>
                     <tr>
                         <td><button value="0" onclick="opr('0')">0</button></td>
                         <td><button value="." onclick="opr('.')">.</button></td>
-                        <td><button value="=" onclick="opr('=')">=</button></td>
-                        <td><button value="+" onclick="opr('+')">+</button></td>
+                        <td><button value="=" onclick="solve()">=</button></td>
+                        <td><button value="+" onclick="opr('+')" id="Operator">+</button></td>
                     </tr>
                 </table>
+            </div>
         </div>
     </body>
 </html>

@@ -1,6 +1,42 @@
-.flex-container {
-    display:flex;
+body {
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #737373;
 }
 
+.content {
+    background-color: rgba(7, 95, 95, 0.606);
+    display:flex;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    border: 4px solid black;
+    border-radius: 1em;
+
+    
+}
+
+table {
+    flex:content;
+}
+
+input[type="text"] {
+    border: 2px solid red;
+    height:3em;
+    font-size:20px;
+}
+
+button {
+    background-color: blanchedalmond;
+    width:100%;
+    height:3em;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px;
+}
+#Operator {
+    background-color: coral;
+}
